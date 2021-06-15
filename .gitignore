@@ -1,0 +1,7 @@
+nvim/.config/nvim/*
+!nvim/.config/nvim/init.vim
+dmenu/*.o
+dmenu/stest
+dmenu/dmenu
+dmenu/dmenu-path
+dmenu/dmenu-run

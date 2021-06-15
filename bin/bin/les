@@ -1,0 +1,7 @@
+#!/bin/sh
+#
+# browse/open docs
+
+out="$(find "$HOME/docs" | grep 'pdf\|epub\|djvu' | sort | dmenu -l 15)"
+
+[ -f "$out" ] && zathura "$out"
